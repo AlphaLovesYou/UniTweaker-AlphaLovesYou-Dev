@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>UniTweaker</RootNamespace>
+        <Configurations>Mono; Il2Cpp</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>UniTweaker</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Folder Include="UI\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\UniTweaker.UI\UniTweaker.UI.csproj" />
+    </ItemGroup>
+</Project>
