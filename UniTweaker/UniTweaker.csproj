@@ -17,4 +17,8 @@
     <ItemGroup>
         <ProjectReference Include="..\UniTweaker.UI\UniTweaker.UI.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="LavaGang.MelonLoader" Version="0.6.1" />
+    </ItemGroup>
 </Project>
